@@ -16,6 +16,7 @@ CREATE TABLE specialists (
     auth_user_id UUID UNIQUE,
 
     specialist_code VARCHAR(30) UNIQUE NOT NULL,
+    access_code_hash TEXT,
 
     display_name VARCHAR(100),
 
@@ -349,3 +350,12 @@ CREATE TRIGGER update_bounding_boxes_updated_at
 BEFORE UPDATE ON bounding_boxes
 FOR EACH ROW
 EXECUTE FUNCTION update_updated_at_column();
+
+-- ============================================================
+-- ÍNDICE ÚNICO PARA CÓDIGOS DE ACCESO DE ESPECIALISTAS
+-- ============================================================
+
+CREATE UNIQUE INDEX IF NOT EXISTS
+specialists_access_code_hash_unique
+ON public.specialists(access_code_hash)
+WHERE access_code_hash IS NOT NULL;

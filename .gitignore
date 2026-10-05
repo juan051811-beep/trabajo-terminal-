@@ -55,3 +55,6 @@ Thumbs.db
 *.tmp
 *.bak
 *.log
+
+# Códigos y secretos de especialistas
+Enriquecimiento del dataset/02_anotacion/secrets/
