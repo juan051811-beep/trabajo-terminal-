@@ -1,0 +1,5 @@
+streamlit==1.65.0
+supabase==2.32.0
+Pillow==12.3.0
+streamlit-image-annotation==0.8.0
+python-dotenv==1.2.4
