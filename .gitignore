@@ -57,10 +57,10 @@ Thumbs.db
 *.log
 
 # Códigos y secretos de especialistas
-Enriquecimiento del dataset/02_anotacion/secrets/
+Enriquecimiento_del_dataset/02_anotacion/secrets/
 
 # Respaldos locales de la app de anotación
-Enriquecimiento del dataset/02_anotacion/app/app_antes_redisenio.py
-Enriquecimiento del dataset/02_anotacion/app/app_backup_antes_bbox_db.py
-Enriquecimiento del dataset/02_anotacion/app/app_backup_antes_finalizar.py
-Enriquecimiento del dataset/02_anotacion/app/app_backup_bbox_fix.py
+Enriquecimiento_del_dataset/02_anotacion/app/app_antes_redisenio.py
+Enriquecimiento_del_dataset/02_anotacion/app/app_backup_antes_bbox_db.py
+Enriquecimiento_del_dataset/02_anotacion/app/app_backup_antes_finalizar.py
+Enriquecimiento_del_dataset/02_anotacion/app/app_backup_bbox_fix.py
